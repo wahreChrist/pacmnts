@@ -1,0 +1,98 @@
+html,
+body {
+    margin: 0;
+    font-family: "Press Start 2P", cursive;
+    background-color: rgba(0, 0, 0, 0.504);
+    background-image: url("/background-pic.jpg");
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    padding: 0;
+    margin: 0;
+    min-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+    color: aliceblue;
+}
+
+.logo {
+    width: 200px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    border: solid black;
+    background-color: aliceblue;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+
+.pac-dot {
+    background-color: #17ba0b;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: #17ba0b;
+    border-radius: 7.5px;
+}
+
+.pacman {
+    background-color: #eded00;
+    border-radius: 7.5px;
+    border: none;
+}
+
+.blinky {
+    background-color: red;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.pinky {
+    background-color: pink;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.inky {
+    background-color: aqua;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.clyde {
+    background-color: orange;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+    border: none;
+}
