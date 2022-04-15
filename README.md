@@ -1,5 +1,8 @@
 # PacmanTS
 
+### Live link
+https://wahrechrist.github.io/pacmnts/
+
 ### Overview
 Classic pacman game written completely on Typescript/Vanilla JS
 
