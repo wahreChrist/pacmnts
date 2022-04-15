@@ -1,3 +1,5 @@
-export default {
-    base: "pacmnts",
-};
+import { defineConfig } from "vite";
+
+export default defineConfig({
+    base: "/pacmnts/",
+});
