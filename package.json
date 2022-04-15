@@ -4,9 +4,14 @@
     "version": "0.0.0",
     "scripts": {
         "dev": "vite",
+<<<<<<< HEAD
         "build": "vite build --base=/pacmnts/",
         "preview": "vite preview",
         "deploy": "gh-pages -d dist"
+=======
+        "build": "vite build --base=./",
+        "preview": "vite preview"
+>>>>>>> 67bc58348fac02ce8dd0f16dfdad4faa13fdea27
     },
     "devDependencies": {
         "typescript": "^4.5.4",
